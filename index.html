@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Academic portfolio of Dr. Jayanta Paul — researcher in multimodal AI, machine learning, computer vision and natural language processing." />
+  <meta name="author" content="Dr. Jayanta Paul" />
+  <meta name="theme-color" content="#0b1220" />
+  <meta property="og:title" content="Dr. Jayanta Paul | Academic Portfolio" />
+  <meta property="og:description" content="Research, publications, experience, teaching, awards and academic activities." />
+  <meta property="og:type" content="website" />
+  <title>Dr. Jayanta Paul | Academic Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a href="#top" class="brand" aria-label="Jayanta Paul home">
+        <span class="brand-mark">JP</span>
+        <span class="brand-text">Jayanta Paul</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#awards">Awards</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme" title="Toggle color theme">◐</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Institute Post-Doctoral Fellow · IIT Kharagpur</p>
+          <h1>Dr. Jayanta Paul</h1>
+          <p class="hero-role">Multimodal AI · Machine Learning · Computer Vision · Natural Language Processing</p>
+          <p class="hero-summary">
+            I work on deep learning-driven methods for multimodal understanding, with research spanning social-media analysis, vision-language learning, explainable AI, medical image analysis, and intelligent systems.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#publications">Explore Publications</a>
+            <a class="btn secondary" href="assets/Jayanta_Paul_CV.pdf" target="_blank" rel="noopener">View CV</a>
+          </div>
+          <div class="social-row" aria-label="Academic profiles">
+            <a href="https://scholar.google.com/citations?user=npVoywoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+            <a href="https://www.linkedin.com/in/jayanta-paul-228789146/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="mailto:jayantapaul888@gmail.com">Email ↗</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal" aria-label="Academic snapshot">
+          <div class="avatar" aria-hidden="true">JP</div>
+          <div class="mini-stat-grid">
+            <div><strong>20+</strong><span>Published works</span></div>
+            <div><strong>11</strong><span>Journal articles</span></div>
+            <div><strong>PhD</strong><span>IIEST Shibpur</span></div>
+            <div><strong>2026</strong><span>Postdoctoral research</span></div>
+          </div>
+          <p class="panel-note">Department of Artificial Intelligence<br />Indian Institute of Technology Kharagpur</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section section-pad">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>Research at the intersection of vision, language and multimodal intelligence.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            I am an Institute Post-Doctoral Fellow in the Department of Artificial Intelligence at IIT Kharagpur. I completed my PhD in Computer Science &amp; Engineering from IIEST Shibpur in 2025, with a thesis focused on deep learning-driven frameworks for multimodal social media content analysis.
+          </p>
+          <p>
+            My work combines machine learning, deep learning, computer vision and NLP to build robust systems for multimodal content understanding, recognition, classification, segmentation and explainable decision-making.
+          </p>
+          <div class="tag-list" id="interest-tags"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section section-alt section-pad">
+      <div class="container">
+        <div class="section-heading wide reveal">
+          <p class="eyebrow">Research</p>
+          <h2>Core research themes</h2>
+          <p>Research areas reflected across my doctoral work and peer-reviewed publications.</p>
+        </div>
+        <div class="cards research-grid" id="research-grid"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-pad">
+      <div class="container">
+        <div class="section-heading wide reveal">
+          <p class="eyebrow">Experience &amp; Education</p>
+          <h2>Academic journey</h2>
+        </div>
+        <div class="timeline" id="experience-timeline"></div>
+        <h3 class="subsection-title reveal">Education</h3>
+        <div class="education-grid" id="education-grid"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="section section-alt section-pad">
+      <div class="container">
+        <div class="section-heading wide reveal">
+          <p class="eyebrow">Publications</p>
+          <h2>Peer-reviewed research</h2>
+          <p>Journal articles, conference papers, book chapters and current manuscripts listed in the CV.</p>
+        </div>
+
+        <div class="pub-toolbar reveal">
+          <div class="filter-group" role="group" aria-label="Publication filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="journal">Journals</button>
+            <button class="filter-btn" data-filter="conference">Conference / Book</button>
+            <button class="filter-btn" data-filter="review">Under Review</button>
+          </div>
+          <label class="pub-search">
+            <span class="sr-only">Search publications</span>
+            <input id="pub-search" type="search" placeholder="Search title, venue, year…" />
+          </label>
+        </div>
+
+        <div class="publication-list" id="publication-list" aria-live="polite"></div>
+        <div class="center-row reveal">
+          <a class="btn secondary" href="https://scholar.google.com/citations?user=npVoywoAAAAJ&hl=en" target="_blank" rel="noopener">View Google Scholar</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section section-pad">
+      <div class="container">
+        <div class="section-heading wide reveal">
+          <p class="eyebrow">Teaching &amp; Academic Service</p>
+          <h2>Teaching, talks and leadership</h2>
+        </div>
+        <div class="cards service-grid" id="service-grid"></div>
+      </div>
+    </section>
+
+    <section id="awards" class="section section-alt section-pad">
+      <div class="container">
+        <div class="section-heading wide reveal">
+          <p class="eyebrow">Recognition</p>
+          <h2>Fellowships &amp; awards</h2>
+        </div>
+        <div class="award-list" id="award-list"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section section-pad">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Interested in research collaboration?</h2>
+          <p>For academic collaboration, research discussions, invited talks or related opportunities, feel free to get in touch.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:jayantapaul888@gmail.com">Email Me</a>
+          <a class="btn secondary" href="assets/Jayanta_Paul_CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Dr. Jayanta Paul. Academic portfolio.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
